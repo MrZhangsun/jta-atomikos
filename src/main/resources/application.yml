@@ -1,14 +1,3 @@
 spring:
   profiles:
     active: dev
-  datasource:
-    db01:
-      url: jdbc:mysql://localhost:3306/db01?useUnicode=true&characterEncoding=utf-8
-      username: root
-      password: mysql
-      driver-class-name: com.mysql.jdbc.Driver
-    db02:
-      url: jdbc:mysql://localhost:3306/db02?useUnicode=true&characterEncoding=utf-8
-      username: root
-      password: mysql
-      driver-class-name: com.mysql.jdbc.Driver
